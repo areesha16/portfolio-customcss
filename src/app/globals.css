@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(23, 112, 214);
+}
+.sidebar{
+    position: absolute;
+    background-color: plum;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#card img{
+    width: 90%;
+    height: 400px;
+    margin: 20px 15px 20px 15px;
+    border: 2px solid rgb(154, 149, 149);
+   
+  }
+  #card:hover{
+    box-shadow: 3px 3px 10px rgb(207, 105, 105);
+  }
+  #cards h2:hover{
+    color: blueviolet;
+  }
+  #cards{
+    display:inline-table;
+    width: 30%;
+    padding-left: 30px;
+  
+  }
+  #card h2{
+    text-align: center;
+    font-size: 25px;
+    color:orangered;
+  }
+  #main-pic img {
+    width: 80%;
+    height: 600px;
+    border: 2px solid black;
+  }
+  #card{
+    display: block;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    border: 2px solid black;
+  }
+.main{
+    width: 90vw;
+    padding: 20px;
+}
+.container{
+    display: flex;
+}
+
+.info{
+    height: 58vh;
+    width: 80vw;
+    margin: 144px 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devpic img{
+    
+    height: 58vh;
+  border-radius: 50%;  
+  margin-left: 15%;
+
+}
+
+.devinfo{
+    font-size: 16px;
+    display: flex;
+justify-content: center;
+font-family:Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+ font-size: 3em;
+ font-weight: bold;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 25px;
+    text-align: justify;
+}
+.btns .btn{
+    margin: 0px 3px;
+    border-radius: 22px ;
+    padding: 10px 14px;
+    color: white;
+    background-color: rgb(102, 102, 232);
+    font-size: 1.2em ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btns{
+    margin-top: 34px;
+}
+.btns button:hover{
+        color: rgb(102, 102, 232);
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(102, 102, 232);
+}
+.btn-sm :hover{
+    color: rgb(102, 102, 232);
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(102, 102, 232);
+}
+.contact-form {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+    margin: 88px 100px;
+}
+
+.contact-form h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* padding: 12px 0px */
+}
+.contact-form form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+  
+}
+#emailhelp{
+    font-size: 11px;
+    color:rgba(113, 113, 227, 0.929);
+    margin: 0 5px;
+    padding: 3px 0px 0px 0px;
+
+}
+contact-form form div input{
+    /* width: 150px; */
+    border-radius: 5px;
+    margin: 6px 0px 0px 0px;
+    padding: 4px;
+}
+contact-form form{
+    margin: 0 40px;
+}
+div input{
+    width: 250px;
+    border-radius: 3px;
+    padding: 3px 0px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+width: 24px;
+margin: 3px 0px;
+}
+.btn-sm button{
+    font-size: 14px;
+    width: 120px;
+    padding: 10px 19px;
+    margin: 12px 0px;
+    border-radius: 22px ;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(102, 102, 232);
+}
+.blogItem{
+    margin:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog-container{
+    margin: 88px 88px;
+}
+p{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+h1{
+    margin: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    gap: 20px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(88, 228, 228);
+    justify-content: space-between;
+}
+
+.intro h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 12px ;
+    font-size: 35px;
+}
+.intro{
+    margin: 88px 88px;
+}
+.intro p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',;
+    margin: 12px;
+    font-size: 20px;
+    text-align: justify;
+}
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30PX;
+    margin: 10px;
+    background-color: orangered;
+}
+.S5{
+    width: 175px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30PX;
+    margin: 10px;
+    background-color: rgba(0, 221, 255, 0.911);
+}
+.fifty{
+    width: 125px ;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: green;
+}
+.t5{
+    width: 75px;
+    height: 15PX;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: yellow;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItems{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+body{
+    margin: 10px;
+}
+.blog-container{
+    margin: 4px 2px;
+}
+    .list {
+        list-style: none;
+        text-align: left;
+        gap: 10px;
+        padding-top: 14px;
+    }
+    .blog-container{
+        margin: 20px; 
+    }
+    .blogItem{
+        width: 80%;
+        padding: 10px;
+    }
+    .container{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{
+        margin: 0px;
+        padding: 0px;
+        width: 90%;
+    }
+ .blog-container h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+ }
+.devinfo div{
+    text-align: left;
+    padding: 0px 10px;
+}
+.info{
+    margin: 40px 10px;
+}
+.devpic{
+    display: none;
+
+}
+.intro{
+    margin: 10px 8px;
+}
+.devinfo{
+    font-size: 10px;
+}
+.btns .btn{
+    font-size: 6px ;
+}
+#cards #card{
+    display: block;
+    width: 90%;
+    border:3px solid black;
+}
+.nav{
+    display: flex;
+    flex-direction: column; 
+    width: 95%;  
+    height: 90px;
+    padding: 10px;
+    margin: 0px;
+}
+.nav .logo h1{
+    padding: 5px;
+    padding-left: 15px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.contact-form{
+    font-family: Arial, Helvetica, sans-serif;
+padding: 0px 50px;
+margin: 26px 10px;
+}
+
+.contact-form h1{
+    font-size: 20px;
+}
+/* .nav li{
+    font-size: 14px;
+    margin-left: 5px;
+    padding-left: 0px;
+} */
+.list li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1px;
+    padding-top: 0px;
+padding-left: 5px; 
+font-size: 14px;
+width: 65%;
+
+}
+#cards{
+    display: block;
+    width: 80%;
+    padding: 20px 10px;
+}
+#cards img{
+    padding: 10px;
+    width: 80%;
+    height: 352px;
+    margin: 20px 15px 20px 15px;
+    border: 2px solid
+}
+/* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+} */
+
+}
